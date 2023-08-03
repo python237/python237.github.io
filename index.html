@@ -1,768 +1,446 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="tagnedidier@gmail.com">
 
-  <title>Personal Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>My Portfolio - Didier Tagne</title>
 
-  <!-- Favicons -->
-  <link href="favicon.png" rel="icon">
-  <link href="favicon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/tooplate-style.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  </head>
+  <body class="dark-mode">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-</head>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" onclick="return false;"><i class='uil uil-user'></i> Didier Tagne</a>
 
-<body>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#prize" class="nav-link"><span data-hover="Prizes">Prizes</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
 
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="index_fr.html" class="nav-link"><img src="assets/img/translate.svg" /> <span>Français</span></a></li>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#interests" class="nav-link scrollto"><i class="bx bxs-certification"></i> <span>Interests</span></a></li>
-        <li><a href="#education" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Education</span></a></li>
-        <li><a href="#prize" class="nav-link scrollto"><i class="bx bx-trophy"></i> <span>Prizes</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bxs-award"></i> <span>Experiences</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-pyramid"></i> <span>Projects</span></a></li>
-        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-radar"></i> <span>Skills</span></a></li>
-        <!--<li><a href="https://drive.google.com/file/d/1pvSdX1u2hdkn7AZN2p2wbXqKHNmAnAcP/view?usp=drivesdk" target="_blank" class="nav-link"><i class="bx bx-file-blank"></i> <span>My CV</span></a></li>-->
-        <li><a href="mailto:tagnedidier@gmail.com" target="_blank" class="nav-link"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-  </header><!-- End Header -->
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon active"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Didier Tagne</h1>
-      <p>I'm <span class="typed" data-typed-items="Software Developer, AI Enthusiast, Freelancer, Coder"></span></p>
-      <div class="social-links">
-        <a href="https://cm.linkedin.com/in/didier-tagne-b367a5177/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/python237/" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-        <a href="mailto:tagnedidier@gmail.com" target="_blank"><i class="bx bxl-google"></i></a>
-        <a href="https://join.skype.com/invite/C1B1BrePfbBq" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p></p>
+            <div>
+                <a href="index_fr.html"><img src="images/fr.png" class="lang-img" /></a>
+            </div>
         </div>
+    </nav>
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/IMG_9976-21.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Software Developer</h3>
-            <p class="">
-              Focused and enthusiastic developer with a keen interest in developing software solutions. My love for these fields was born out of a comprehensive exposure to the underlying concepts and their practical application to various projects. I am a passionate individual who strives to build and apply algorithms to solve real industry problems.
-            </p>
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>25 September 1999</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Douala, Cameroon</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+237 698 435 194 / +213 770 601 986</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Experiences:</strong> <span>3 years</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's degree (2023)</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tagnedidier@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
-              </div>
+
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hey folks, I'm</span>
+                            <div class="animated-info">
+                                <span class="animated-item item-1">Didier Tagne</span>
+                                <span class="animated-item item-2">Software developer</span>
+                                <span class="animated-item item-3">Python developer</span>
+                                <span class="animated-item item-4">Back-end developer</span>
+                                <span class="animated-item item-5">Django Developer</span>
+                                <span class="animated-item item-6">Web scraping specialist</span>
+                            </div>
+                        </h1>
+
+                        <p>Building a successful product is a challenge. I'm very energetic in setting up the architecture and designing robust and scalable back-ends, implementing online data extraction algorithms, developing web solutions and user documentation.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="https://drive.google.com/file/d/1G3tbR-reIUNDnlV2ZdxfbrHtzDHRslJN/view?usp=sharing" target="_blank" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i>Download Resume</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/profile.png" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
             </div>
-            <p></p>
-          </div>
         </div>
+    </section>
 
-      </div>
-    </section><!-- End About Section -->
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
 
-    <!-- ======= Interests ========== --->
-    <section id="interests">
-      <div class="interests container" data-aos="fade-up">
-              <div class="section-title">
-                <h2>Interests</h2>
-              </div>
-              <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                      <div class="icon-box">
-                        <i class="ri-global-line" style="color: #ffbb2c;"></i>
-                        <h3>Software Development</h3>
+                      <div class="col-lg-8 mx-auto" style="margin-bottom: 50px;">
+                        <h2>Here are a few examples of my work :)</h2>
                       </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-0 mt-lg-0">
-                      <div class="icon-box">
-                        <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
-                        <h3>Software Engineering</h3>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/en/samu_web.jpg" class="img-fluid" alt="Samu Assistance CMR (Website application)">
+
+                            <a href="https://samu-assistance.com/en/" target="_blank">
+                                <div class="project-extra">
+                                    Samu Assistance CMR (Website application)
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/en/samu_mobile.jpg" class="img-fluid" alt="Samu Assistance CMR (Mobile application)">
+
+                            <a href="https://play.google.com/store/apps/details?id=com.samu_mobile&hl=en" target="_blank">
+                                <div class="project-extra">
+                                    Samu Assistance CMR (Mobile application)
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/wazup.jpg" class="img-fluid" alt="Wazup">
+                            <a href="https://wazup.cm/" target="_blank">
+                                <div class="project-extra">
+                                    Wazup
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/en/comparo_b2b.jpg" class="img-fluid" alt="Comparoshop (Landing page)">
+                            <a href="https://dev-business.comparoshop.com/" target="_blank">
+                                <div class="project-extra">
+                                    Comparoshop (Landing page)
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/en/comparo_ia.jpg" class="img-fluid" alt="Comparoshop (AI Toolbox)">
+                            <a href="https://dev-tools.comparoshop.com/" target="_blank">
+                                <div class="project-extra">
+                                    Comparoshop (AI Toolbox)
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/en/comparo_cp.jpg" class="img-fluid" alt="Comparoshop (Price comparison)">
+                            <a href="https://www.comparoshop.com/" target="_blank">
+                                <div class="project-extra">
+                                    Comparoshop (Price comparison)
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/strapp.jpg" class="img-fluid" alt="Strapp Life">
+                            <a href="https://strapp.life/" target="_blank">
+                                <div class="project-extra">
+                                    Strapp Life
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/en/hbc.jpg" class="img-fluid" alt="Human Brain Corporation">
+                            <a href="https://www.humanbraincorp.com/en/" target="_blank">
+                                <div class="project-extra">
+                                    Human Brain Corporation
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+
                       </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
-                      <div class="icon-box">
-                        <i class="ri-bit-coin-line" style="color: #ffc107;"></i>
-                        <h3>Blockchain</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
-                      <div class="icon-box">
-                        <i class="ri-eye-line" style="color: #21f897;"></i>
-                        <h3>Computer Vision</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4">
-                      <div class="icon-box">
-                        <i class="ri-bank-line" style="color: #5578ff;"></i>
-                        <h3>FinTech</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4">
-                      <div class="icon-box">
-                        <i class="ri-node-tree" style="color: #8967ff;"></i>
-                        <h3>GreenTech</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4">
-                      <div class="icon-box">
-                        <i class="ri-shopping-bag-3-fill" style="color: #5f9589;"></i>
-                        <h3>E-commerce</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4">
-                      <div class="icon-box">
-                        <i class="ri-health-book-fill" style="color: #db98ac;"></i>
-                        <h3>HealthTech</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4">
-                      <div class="icon-box">
-                        <i class="ri-hand-coin-fill" style="color: #db98ac;"></i>
-                        <h3>Augmented reality</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4">
-                      <div class="icon-box">
-                        <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
-                        <h3>Artificial intelligence</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 ">
-                      <div class="icon-box">
-                        <i class="ri-file-music-fill" style="color: #e80368;"></i>
-                        <h3>Music</h3>
-                      </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-4 ">
-                      <div class="icon-box">
-                        <i class="ri-gamepad-fill" style="color: #1c7d32;"></i>
-                        <h3>Video Games</h3>
-                      </div>
-                    </div>
+
                   </div>
-            </div>
-    </section><!-- End Interests Section -->
-
-    <!-- ======= Education Section ======= -->
-    <section id="education" class="services">
-      <div class="container">
-        <div class="section-title">
-          <h2>Education</h2>
+                </div>
         </div>
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-               style="margin-left: 0px; margin-right: 0px;">
-            <img src="assets/img/Entree_Principale_Universite_de_Douala-500x375-780x440-2.jpg"
-                 style="border-radius: 10px; max-height: 200px;" alt="" width="100%">
-            <p style="text-align:left; margin-top: 10px;"><em><b>License in Computer Science</b></em></p>
-            <h5 style="text-align:left; margin-top: 15px; font-size: 17px;">July 2023</h5>
-            <h6 style="text-align:left; margin-top: 20px; font-size: 15px;">Relevant Coursework</h6>
-            <ul style="text-align:left; margin-top: 10px;">
-                  <li style="font-size: 14px;">Software Engineering</li>
-                  <li style="font-size: 14px;">Data Structures &amp; Algorithms</li>
-                  <li style="font-size: 14px;">Database Management Systems</li>
-                  <li style="font-size: 14px;">Computer programming</li>
-                  <li style="font-size: 14px;">Computer Networking</li>
-                  <li style="font-size: 14px;">Operating Systems</li>
-            </ul>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2023</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Data scraper Specialist</span><small>Buguard</small></h3>
+                                 <p><a href="https://buguard.io/" target="_blank">Buguard</a> is an Egyptian cybersecurity company. <br/>My job is to develop scripts that will automate the collection of data from several defined sources or channels.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Software developer</span><small>Malea Investment</small></h3>
+                                <p><a href="https://malea-investment.com/" target="_blank">Malea investment</a> is a financial structure that facilitates the payment of products in instalments. <br/>My job is to develop a web and mobile application to facilitate the process of requesting payment in instalments for customers, and to automate the claims verification process.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Software developer</span><small>SAMU ATC</small></h3>
+                                <p><a href="https://samu-atc.com/" target="_blank">SAMU ATC</a> is a company specializing in medical services.<br/> My job is to develop and maintain the <a href="https://samu-assistance.com/" target="_blank">SAMU ASSISTANCE CMR</a> healthcare application, which is a real-time medical assistance application.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2022</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Web Developer<small>FBK Company</small></span></h3>
+                                <p><a href="https://www.linkedin.com/company/fbk-company" target="_blank">FBK-Company</a> is a digital agency providing digital services to third party clients.<br/> My mission at FBK-Company during these 6 months was to design a front-end dashboard for a third party client.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2022</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Python back-end developer</span><small>Wazup</small></h3>
+                                <p><a href="https://wazup.cm/" target="_blank">Wazup</a> is a mobile application for booking tickets to festive venues such as concerts, nightclubs, etc.<br/> My job was to design the solution's backend architecture, develop all the backend functionalities (payment management, qr code generation for tickets, etc.) and the api, and deploy the solution in a production cloud environment.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <h2 class="mb-4 mobile-mt-2 experience-line" style="visibility: hidden;">-</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2022</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Co-Founder & CEO</span><small>Comparoshop</small></h3>
+                                <p>This is the experience I'm most proud of: originally launched as a <a href="https://www.comparoshop.com/" target="_blank">price comparison site</a>, Comparoshop has now pivoted to become an <a href="https://business.comparoshop.com/" target="_blank">AI toolbox</a> for improving ecommerce in Africa. It brings together a multitude of complementary and useful tools for online stores. More tools to come!</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                 <span>2022</span>
+                             </div>
+                             <div class="timeline-info">
+                                 <h3><span>Software developer</span><small>Strapp Life</small></h3>
+                                 <p><a href="https://strapp.life/" target="_blank">Strapp Life</a> is an Algerian HealthTech startup.<br/> My job is to develop and maintain the back-end of a medication reminder application. The device consists of a bracelet and a mobile application.</p>
+                             </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2021</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Python web developer</span><small>HBC</small></h3>
+                                <p><a href="http://humanbraincorp.com/" target="_blank">HBC</a> is a company whose services revolve around HR and legal consultancy.<br/> My job at HBC was to develop the company's website and deploy it in a production cloud environment.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2021</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Python web developer</span><small>Cyberzone</small></h3>
+                                <p><a href="https://cyberzone-sec.com/" target="_blank">Cyberzone</a> is a startup that provides offensive cybersecurity services and trains young people in cybersecurity.<br/> My job at Cyberzone was to design the company's website and deploy it in a production cloud environment.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Full-stack Developer</span><small>NetAfrica SARL</small></h3>
+                                <p><a href="https://netafrica-sarl.com/" target="_blank">NetAfrica SARL</a> is a company that provides IT services to individuals and businesses.<br/> My mission at NetAfrica SARL was to develop web solutions for third-party customers.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIZES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="prize">
+        <div class="container">
+            <h2 class="mb-4 text-center">Prizes & Awards</h2>
+
+            <div class="row mt-4">
+                <div class="col-lg-6 col-12">
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2022</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Hack4Future</span><small>Société Générale Algeria</small></h3>
+                                  <p>Winner of this hackathon organized by Société Générale Algérie, I worked with my team (teams of 4) on an innovative banking application for the future.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2022</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Hackathon CyberSecurity Challenge</span><small>QuickDo Canada</small></h3>
+                                  <p>Winner of this hackathon organized by QuickDo Canada, in 48 hours I developed a browser add-on to ensure the security of Internet users online. The addon in question blocks phishing sites referenced in several active forums (around 1 million phishing sites constantly updated) and is able to identify fake government or banking sites whose domain name is generally derived from the original domain (to the letter). Once these sites have been identified, the addon immediately stops the request and informs the user. The project has been named SecureMyNavigation and is the intellectual property of the Hackathon organizer.</p>
+                             </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2022</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Techstars AI challenge</span><small>AAIS</small></h3>
+                                  <p>Winner of this hackathon organized by the AAIS (African Artificial Intelligence Society), I designed in 72 hours a first minimal version of an agricultural voice assistant with artificial intelligence that helps beginners in agriculture through advice and guidance optimized for the success of their plantations. The project was named AVA.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2022</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Kelmass Hackathon</span><small>Kelmass SARL</small></h3>
+                                <p>Winner of this hackathon organized by Kelmass SARL, During 10 hours, I took on a challenge consisting in building a microservices application to manage the grades of the students of a school, then containerize the application and version it on git.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15919.35182603821!2d9.690652150361757!3d4.0534500847241075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061125fd8ac86e9%3A0x8c209e5fc42dae26!2sAkwa%2C%20Douala!5e0!3m2!1sfr!2scm!4v1691024605370!5m2!1sfr!2scm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">Interested to work together? Let's talk</h3>
+                  <p class="footer-text mb-0">+237 698 43 51 94</p>
+                  <p><a href="mailto:tagnedidier@gmail.com">tagnedidier@gmail.com</a></p>
+                </div>
+            </div>
           </div>
-          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-               style="margin-left: 0px; margin-right: 0px;">
-            <img src="assets/img/OBC.jpg"
-                 style="border-radius: 10px; max-height: 200px;" alt="" width="100%">
-            <p style="text-align:left; margin-top: 10px;"><em><b>Scientific baccalaureate</b></em></p>
-            <h5 style="text-align:left; margin-top: 15px; font-size: 17px;">July 2016</h5>
-            <h6 style="text-align:left; margin-top: 20px; font-size: 15px;">Relevant Subjects</h6>
-            <ul style="text-align:left; margin-top: 10px;">
-              <li style="font-size: 14px;">Mathematics</li>
-              <li style="font-size: 14px;">Physics</li>
-              <li style="font-size: 14px;">Chemistry</li>
-              <li style="font-size: 14px;">Biology</li>
-            </ul>
-          </div>
+
         </div>
       </div>
     </section>
-    <!-- End Education Section -->
 
-    <!-- ======= Prize Section ======= -->
-    <section id="prize" class="services">
-      <div class="container">
-        <div class="section-title">
-          <h2>Prizes</h2>
-        </div>
-        <div class="row" data-aos="fade-up">
-          <div class="col-12 col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-               style="margin-left: 0px; margin-right: 0px;">
-            <img src="assets/img/quickdo.jpeg"
-                 style="border-radius: 10px; max-height: 200px;" alt="" width="100%">
-            <p style="text-align:left; margin-top: 10px;"><em><b>Winner of Hackathon Cybersecurity Challenge</b></em></p>
-            <h5 style="text-align:left; margin-top: 15px; font-size: 17px;">August 2022 | Awarded by QuickDo</h5>
-            <h6 style="text-align:justify; margin-top: 20px; font-size: 14px; line-height: 22px;">
-              In 48 hours, I developed a browser addon to ensure the safety of Internet users online. The addon in question blocks phishing sites referenced in several active forums (about 1 million phishing sites updated continuously) and is able to identify fake government or banking sites whose domain name is usually derived from the original domain (to the letter).  Once these sites are identified, the addon immediately stops the request and informs the user. The project has been named SecureMyNavigation.
-            </h6>
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2023 Didier Tagne . All rights reserved</p>
+                    </div>
+                    
+               </div>
           </div>
-          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-               style="margin-left: 0px; margin-right: 0px;">
-            <img src="assets/img/IMG_9976-23.jpg"
-                 style="border-radius: 10px; max-height: 200px;" alt="" width="100%">
-            <p style="text-align:left; margin-top: 10px;"><em><b>Winner of Douala TechStars AI</b></em></p>
-            <h5 style="text-align:left; margin-top: 15px; font-size: 17px;">April 2022 | Awarded by African Artificial Intelligence Society</h5>
-            <h6 style="text-align:justify; margin-top: 20px; font-size: 14px; line-height: 22px;">
-              In 72 hours, I designed a first minimal version of an agricultural voice assistant with artificial intelligence that helps beginners in agriculture through advice and guidance optimised for the success of their plantations. The project was named AVA.
-            </h6>
-          </div>
-          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-               style="margin-left: 0px; margin-right: 0px;">
-            <img src="assets/img/kelmass*.png"
-                 style="border-radius: 10px; max-height: 200px;" alt="" width="100%">
-            <p style="text-align:left; margin-top: 10px;"><em><b>Winner of Douala Hackathon</b></em></p>
-            <h5 style="text-align:left; margin-top: 15px; font-size: 17px;">February 2022 | Awarded by Kelmass SARL</h5>
-            <h6 style="text-align:justify; margin-top: 20px; font-size: 14px; line-height: 22px;">
-              During 10 hours, I took on a challenge consisting in building a microservices application to manage the grades of the students of a school, then containerize the application and version it on git.
-            </h6>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Education Section -->
+     </footer>
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
+     <script src="js/jquery-3.3.1.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/Headroom.js"></script>
+     <script src="js/jQuery.headroom.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
 
-        <div class="section-title">
-          <h2>Experiences</h2>
-          <p></p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="resume-item">
-              <h4>  Personal Project </h4>
-              <h5>February 2020 - Present</h5>
-              <p><em>Comparo, Douala, Cameroon</em></p>
-              <ul>
-                <li>Development of a meta-search engine to index all sales offers on all online shops in a specific market.</li>
-                <li>Development of a conversational chatbot dedicated to online commerce and accessible from popular messaging apps.</li>
-                <li>Development of an AI that optimises the time taken to put new product offers online by 80%.</li>
-                <li>CI/CD, Docker containerisation, cloud deployment and maintenance.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>  Software Developer </h4>
-              <h5>April 2021 - Present</h5>
-              <p><em>Samu ATC, Douala, Cameroon</em></p>
-              <ul>
-                <li>Development of a web and mobile medical assistance platform with real-time geolocation (<a href="https://sos.samu-atc.com" target="_blank">sos.samu-atc.com</a>).</li>
-                <li>Improvement of the company's showcase site (<a href="https://assist.samu-atc.com" target="_blank">assist.samu-atc.com</a>).</li>
-                <li>Deployment and maintenance in the Cloud.</li>
-                <li>Integration of payment methods.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>  Software Developer </h4>
-              <h5>August 2022 - Present</h5>
-              <p><em>FBK Company, Douala, Cameroon</em></p>
-              <ul>
-                <li>Development of frontend solutions for third party clients with the VueJS framework.</li>
-                <li>Training of junior developers in Python/Django frameworks.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>  Lead Web Developer </h4>
-              <h5>April 2022 - August 2022</h5>
-              <p><em>Bonjour.cm, Yaoundé, Cameroon</em></p>
-              <ul>
-                <li>Update of the platform.</li>
-                <li>Bug fixes.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4> Python web developer </h4>
-              <h5>April 2022 - May 2022</h5>
-              <p><em>Logicom ProServices, Yaoundé, Cameroun</em></p>
-              <ul>
-                <li>Development of the web platform (<a href="https://logicomproservice.com" target="_blank">logicomproservice.com</a>).</li>
-                <li>VPS deployment.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="resume-item">
-              <h4>   Software Engineer </h4>
-              <h5>September 2021 - May 2022</h5>
-              <p><em>Jabeastore, Douala, Cameroon</em></p>
-              <ul>
-                <li>Implementation of an autonomous algorithm to detect the launch of new products on the Internet by brands, to retrieve information on these products, to process this information and to save it.</li>
-                <li>Development of a platform to facilitate and automate the routing and publishing of data from the cloud server to woocommerce. </li>
-                <li>Cloud deployment</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>  Python back-end developer </h4>
-              <h5>December 2021 - February 2022</h5>
-              <p><em>Wazup, Douala, Cameroon</em></p>
-              <ul>
-                <li>Development of the application's backend.</li>
-                <li>Implementation of the APIs.</li>
-                <li>Development of the administration platform.</li>
-                <li>Development of the mobile application showcase site (<a href="https://wazup.cm" target="_blank">wazup.cm</a>, <a href="https://wazup.ci" target="_blank">wazup.ci</a>)</li>
-                <li>Containerisation and Cloud deployment.</li>
-                <li>Implementation of a QR code scanning system.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4> Python web developer </h4>
-              <h5>February 2021 - January 2022</h5>
-              <p><em>Human Brain Corporation (HBC), Douala, Cameroon</em></p>
-              <ul>
-                <li>Development of the web platform (<a href="https://humanbraincorp.com" target="_blank">humanbraincorp.com</a>)</li>
-                <li>Containerisation and cloud deployment.</li>
-                <li>Cloud administration.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4> Full-stack Developer</h4>
-              <h5>June 2020 - January 2022</h5>
-              <p><em>Net Africa SARL, Douala, Cameroon</em></p>
-              <ul>
-                <li>Development of web solutions for third party clients.</li>
-                <li>Project management.</li>
-                <li>Choice of technologies.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4> Python web developer </h4>
-              <h5>August 2021 - October 2021</h5>
-              <p><em>CyberZone, Douala, Cameroon</em></p>
-              <ul>
-                <li>Development of the web platform.</li>
-                <li>Containerisation and cloud deployment.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-        <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p></p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/wazup.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Wazup</h4>
-                <p>App, Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/wazup.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Wazup"><i class="bx bx-plus"></i></a>
-                  <a href="projects/wazup.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/hbc1.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>HBC</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/hbc1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Human Brain Corporation"><i class="bx bx-plus"></i></a>
-                  <a href="projects/hbc.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/sos1.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Samu SOS</h4>
-                <p>App, Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/sos1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Samu SOS"><i class="bx bx-plus"></i></a>
-                  <a href="projects/sos.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/jba.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>PussySpider</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/jba.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="PussySpider"><i class="bx bx-plus"></i></a>
-                  <a href="projects/jba.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/cp.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>ComparoShop</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/cp1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ComparoShop"><i class="bx bx-plus"></i></a>
-                  <a href="projects/cp.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/assist.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Samu Assist</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/assist1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Samu Assist"><i class="bx bx-plus"></i></a>
-                  <a href="projects/assist.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/lo.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Logicom ProServices</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/lo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Logicom ProServices"><i class="bx bx-plus"></i></a>
-                  <a href="projects/lo.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/vocal.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>AVA</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/vocal.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="AVA"><i class="bx bx-plus"></i></a>
-                  <a href="projects/ava.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p></p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-3">
-            <h3>Languages</h3>
-
-            <div class="progress">
-              <span class="skill">Python <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Java <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">SCSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Go <i class="val">35%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Kotlin <i class="val">20%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-3">
-            <h3 class="mt-4 mt-lg-0">Databases</h3>
-
-            <div class="progress">
-              <span class="skill">MySQL <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">PostgreSQL <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MongoDB <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-3">
-            <h3 class="mt-4 mt-lg-0">Frameworks</h3>
-
-            <div class="progress">
-              <span class="skill">Django <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">React Native <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">VueJS <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Scrapy <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">NodeJS <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Angular <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">SpringBoot <i class="val">40%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-3">
-            <h3 class="mt-4 mt-lg-0">Tools</h3>
-
-            <div class="progress">
-              <span class="skill">Git <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Docker <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Kubernetes <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Nginx <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Jenkins <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Didier Tagne</h3>
-      <p></p>
-      <div class="social-links">
-        <a href="https://cm.linkedin.com/in/didier-tagne-b367a5177/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/python237/" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-        <a href="mailto:tagnedidier@gmail.com" target="_blank"><i class="bx bxl-google"></i></a>
-        <a href="https://join.skype.com/invite/C1B1BrePfbBq" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span> 2022</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
