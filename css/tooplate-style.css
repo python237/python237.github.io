@@ -9,7 +9,7 @@ body {
 }
 
 .small-text {
-  color: #5b5b5b;
+  color: #9b9b9b;
   font-size: 14px;
   font-weight: bold;
   padding: 8px 16px;
@@ -42,7 +42,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #5b5b5b;
+  color: #9b9b9b;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,7 +73,7 @@ b, strong {
 
 .custom-btn {
   background: #eee;
-  color: #5b5b5b;
+  color: #9b9b9b;
   font-weight: bold;
   border-radius: 50px;
   padding: 13px 29px;
@@ -122,7 +122,7 @@ b, strong {
   left: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
-  animation: BottomTotop 12s linear infinite 0s;
+  animation: BottomTotop 8s linear infinite 0s;
 }
 .animated-item.item-2 {
   animation-delay: 2s;
@@ -132,12 +132,6 @@ b, strong {
 }
 .animated-item.item-4 {
   animation-delay: 6s;
-}
-.animated-item.item-5 {
-  animation-delay: 8s;
-}
-.animated-item.item-6 {
-  animation-delay: 10s;
 }
 
 @keyframes BottomTotop {
@@ -409,7 +403,7 @@ b, strong {
   height: 8px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #5b5b5b;
+  background: #9b9b9b;
 }
 
 .google-map iframe {

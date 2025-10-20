@@ -3,28 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Senior Python/Django & Automation Developer — Didier Tagne">
     <meta name="author" content="tagnedidier@gmail.com">
 
-    <title>My Portfolio - Didier Tagne</title>
+    <title>Didier Tagne — Senior Python/Django & Automation Developer</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unicons.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
     <link rel="stylesheet" href="css/tooplate-style.css">
 
-      <style>
-          .timeline-info p span {
-            display: list-item;
-            transform: scale(.95);
-            opacity: .91;
-            list-style-type: disc;
-            font-size: .95em;
-          }
-      </style>
+    <style>
+		.skills-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 10px; }
+		.skill { background: rgba(255,255,255,0.03); padding: 10px 12px; border-radius: 8px; font-weight:500; color: rgba(250, 250, 250, .85); }
+      	.side-project { background: rgba(255,255,255,0.02); padding: 12px; border-radius: 10px; margin-bottom: 12px; }
 
+		@media (max-width: 767px) {
+			.skills-grid { grid-template-columns: 1fr; }
+		}
+    </style>
   </head>
   <body class="dark-mode">
 
@@ -42,442 +40,265 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#prize" class="nav-link"><span data-hover="Prizes">Prizes</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav ml-lg-auto">
-                    <div class="ml-lg-4">
-                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon active"></i>
-                        Color mode
-                      </div>
-                    </div>
-                </ul>
+					<li class="nav-item"><a href="#about" class="nav-link"><span data-hover="About">About</span></a></li>
+					<li class="nav-item"><a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a></li>
+					<li class="nav-item"><a href="#prize" class="nav-link"><span data-hover="Prizes">Prizes</span></a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a></li>
+				</ul>
             </div>
-
             <div>
-                <a href="index_fr.html"><img src="images/fr.png" class="lang-img" /></a>
+                <a href="index_fr.html"><img src="images/fr.png" class="lang-img" alt="FR" /></a>
             </div>
         </div>
     </nav>
 
     <!-- ABOUT -->
-    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about" style="padding-top:40px; padding-bottom:40px;">
         <div class="container">
-            <div class="row">
-
+            <div class="row align-items-center">
                 <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                     <div class="about-text">
-                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <small class="small-text">Welcome — <span class="mobile-block">I'm focused on backend systems & automation</span></small>
                         <h1 class="animated animated-text">
-                            <span class="mr-2">Hey folks, I'm</span>
+                            <span class="mr-2">Hi, I'm</span>
                             <div class="animated-info">
                                 <span class="animated-item item-1">Didier Tagne</span>
-                                <span class="animated-item item-2">Software developer</span>
-                                <span class="animated-item item-3">Python developer</span>
-                                <span class="animated-item item-4">Back-end developer</span>
-                                <span class="animated-item item-5">Django Developer</span>
-                                <span class="animated-item item-6">Web scraping specialist</span>
+                                <span class="animated-item item-2">Senior Python/Django Developer</span>
+                                <span class="animated-item item-3">Automation Developer</span>
+                                <span class="animated-item item-4">Data Scraper Specialist</span>
                             </div>
                         </h1>
-
                         <p>
-                            Passionate about code with 5 years of experience, I'm committed to solving complex IT challenges. Senior in backend and fullstack development, I master Python, Django, Flask, and am proficient in scraping, API creation, code review, unit testing, and cloud deployment. Self-taught, I integrate easily into new teams and am attracted to building innovative solutions that improve the lives of users and/or the daily lives of companies.
+							Experienced Senior Fullstack Python Developer with 8+ years in building SaaS, ERP, and e-commerce platforms.
+							I design scalable backends, integrate payment systems, automate workflows, and ensure high-quality code with
+							full unit test coverage. Passionate about turning complex business problems into reliable software solutions,
+							I thrive on leading projects and mentoring teams to deliver high-impact applications.
                         </p>
-                        
                         <div class="custom-btn-group mt-4">
-                          <a href="https://drive.google.com/file/d/1W6Kh7MenxI4ZCm2f_LBynO9olHyEiO-O/view?usp=drive_link" target="_blank" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i>Download Resume</a>
-                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact me</a>
+							<a href="https://drive.google.com/file/d/1X70mxPQAAYwX_Ydo1itdVDQ2y_0zO2Ry/view?usp=sharing"
+							   target="_blank" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+							<a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact me</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg">
-                        <img src="images/profile.png" class="img-fluid" alt="">
+                    <div class="about-image svg text-center">
+                        <img src="images/profile.png" class="img-fluid" alt="Didier Tagne">
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section class="project py-5" id="project">
-        <div class="container">
-                
-                <div class="row">
-                  <div class="col-lg-11 text-center mx-auto col-12">
+    <!-- SKILLS -->
+    <section class="project py-5" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center mb-4">
+            <h2>Core Skills</h2>
+            <p class="mb-0">Backend engineering, scalable architectures, and automation are at the core of my work.</p>
+          </div>
 
-                      <div class="col-lg-8 mx-auto" style="margin-bottom: 50px;">
-                        <h2>Here are a few examples of my work :)</h2>
-                      </div>
-
-                      <div class="owl-carousel owl-theme">
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/wazup.jpg" class="img-fluid" alt="Wazup (Web application)">
-                            <a href="https://wazup.cm/" target="_blank">
-                                <div class="project-extra">
-                                    Wazup (Web application)
-                                </div>
-                            </a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/cover.jpg" class="img-fluid" alt="Wazup (Mobile application)">
-                            <a href="https://play.google.com/store/apps/details?id=com.fairbau.wazup" target="_blank">
-                                <div class="project-extra">
-                                    Wazup (Mobile application)
-                                </div>
-                            </a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/comparo.png" class="img-fluid" alt="Comparo">
-                            <a href="https://play.google.com/store/apps/details?id=com.inc.comparo&hl=en_US" target="_blank">
-                                <div class="project-extra">
-                                    Comparo
-                                </div>
-                            </a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/strapp.jpg" class="img-fluid" alt="Strapp Life">
-                            <a href="https://play.google.com/store/apps/details?id=com.codeguess.strapp&hl=en_US" target="_blank">
-                                <div class="project-extra">
-                                    Strapp Life
-                                </div>
-                            </a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/students.png" class="img-fluid" alt="StudentsMag">
-                            <a href="https://strapp.life/" target="_blank">
-                                <div class="project-extra">
-                                    StudentsMag
-                                </div>
-                            </a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/malea.png" class="img-fluid" alt="StudentsMag">
-                            <a href="https://play.google.com/store/apps/details?id=com.inc.maleadeals" target="_blank">
-                                <div class="project-extra">
-                                    Malea Deals
-                                </div>
-                            </a>
-                          </div>
-                        </div>
-
-                      </div>
-
-                  </div>
-                </div>
-        </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">Experiences</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2023</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Data scraper Specialist</span><small>Buguard</small></h3>
-                                 <p>
-                                     <a href="https://buguard.io/" target="_blank">Buguard</a> is an Egyptian cybersecurity company.
-                                     <br/>
-                                     My tasks at Buguard are as follows:
-                                     <br/>
-                                     <br/>
-                                     <span>Develop python scripts to automate cybersecurity tasks, particularly threat intelligence.</span>
-                                     <span>Write python scripts to automate online data extraction.</span>
-                                     <span>Write unit tests to validate the correct operation of the scripts.</span>
-                                     <span>Carrying out code reviews and validating changes.</span>
-                                     <span>Revising existing extraction scripts in order to optimise extraction time (scraping) via multi-processing.</span>
-                                 </p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2023</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>My achievement</span><small>Comparo</small></h3>
-                                <p>
-                                    <a href="https://play.google.com/store/apps/details?id=com.inc.comparo&hl=en_US" target="_blank">Comparo</a> is a social commerce application designed for non-tech-savvy small businesses to manage and grow their online business. Small business owners can create their online shop in less than 3 minutes, easily collect payments from anywhere, engage and retain customers, synchronise all their sales channels on a single interface and much more.Comparo is a social commerce application designed for non-tech-savvy small businesses to manage and grow their online business. Small business owners can create their online shop in less than 3 minutes, easily collect payments from anywhere, engage and retain customers, synchronise all their sales channels on a single interface and much more.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                 <span>2023</span>
-                             </div>
-                             <div class="timeline-info">
-                                 <h3><span>Back End Developer</span><small>Strapp Life</small></h3>
-                                 <p>
-                                     <a href="https://strapp.life/" target="_blank">Strapp</a> is an Algerian healthcare company offering elderly, disabled, visually impaired and illiterate people a medication reminder system consisting of a mobile app (used to schedule prescriptions), a connected watch (to execute alarms) and a medication storage kit.
-                                     <br/>
-                                     My missions within Strapp were as follows:
-                                     <br/>
-                                     <br/>
-                                     <span>Designing the backend architecture.</span>
-                                     <span>Developing the Strapp application backend with Python/Django.</span>
-                                     <span>Document the API using Swagger.</span>
-                                     <span>Deploy the backend on an OVHCloud environment: Docker + Kubernetes.</span>
-                                 </p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2022</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Software Developer<small>Malea Investment</small></span></h3>
-                                <p>
-                                    Malea investment is a Cameroonian company that facilitates the payment of products in installments for online buyers.
-                                    <br/>
-                                    My assignments at Malea were as follows:
-                                    <br/><br/>
-                                    <span>Design the architecture and develop the MaleaDeals backend using Python/FastAPI.</span>
-                                    <span>Develop the MaleaDeals android mobile application using Java/Android.</span>
-                                    <span>Integrate card and mobile money payment methods (Orange, MTN).</span>
-                                    <span>Deploy on a DigitalOcean cloud environment: Docker + Kubernetes.</span>
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                    <h2 class="mb-4 mobile-mt-2 experience-line" style="visibility: hidden;">-</h2>
-
-                    <div class="timeline">
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2022</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Web Developer<small>FBK Company</small></span></h3>
-                                <p>
-                                    <a href="https://www.linkedin.com/company/fbk-company" target="_blank">FBK-Company</a> is a digital agency that provides digital services to third-party clients.
-                                    <br/>
-                                    My missions at FBK were as follows:
-                                    <br/><br/>
-                                    <span>Develop web solutions for third-party customers.</span>
-                                    <span>Train junior developers in the Django Framework.</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2021</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Software developer</span><small>SAMU ATC</small></h3>
-                                <p>
-                                    SAMU ATC is a Cameroonian company that provides healthcare services (medical consultation, medical transport, etc.) and emergency medical assistance at home for its customers.
-                                    <br/>
-                                    My missions within SAMU were as follows:
-                                    <br/><br/>
-                                    <span>Design the architecture, develop and maintain the web and mobile application 'SAMU Assistance CMR'.</span>
-                                    <span>Development of the 'SAMU Assistance CMR' web application using Python/Django/HTML/CSS/Javascript.</span>
-                                    <span>Development of the mobile application 'SAMU Assistance CMR' with Java/Android.</span>
-                                    <span>Integrate payment methods by mobile money (Orange, MTN, UBA wallet) and by card (VISA, MasterCard).</span>
-                                    <span>Develop real-time synchronisation and geolocation functionalities enabling emergency medical services to synchronise their rescue operations.</span>
-                                    <span>Deploy and manage on a DigitalOcean cloud environment: Docker + Kubernetes.</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2021</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Python web developer</span><small>HBC</small></h3>
-                                <p>
-                                    HBC is a Cameroonian HR company that provides services to companies such as human resources management, HR outsourcing, HR and legal consultancy, and so on.
-                                    <br/>
-                                    My assignments at HBC were as follows:
-                                    <br/><br/>
-                                    <span>Develop the HBC company website.</span>
-                                    <span>Deploy on DigitalOcean instance.</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2020</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Full-stack Developer</span><small>NetAfrica SARL</small></h3>
-                                <p>
-                                    <a href="https://netafrica-sarl.com/" target="_blank">NetAfrica SARL</a> is a digital agency that provides digital services to third-party clients.
-                                    <br/>
-                                    My assignments at NetAfrica were as follows:
-                                    <br/><br/>
-                                    <span>Developing responsive web solutions for third-party clients.</span>
-                                    <span>Project management using Agile methodology.</span>
-                                    <span>Drawing up specifications, choosing technologies and working with a team of developers to ensure the quality and performance of the applications.</span>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2019</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Python back-end developer</span><small>Fairbu</small></h3>
-                                <p>
-                                    <a href="https://wazup.cm/" target="_blank">Wazup</a> is a mobile application for booking tickets in festive places like concerts, nightclubs, etc.
-                                    <br/>
-                                    My missions at Fairbu were as follows:
-                                    <br/><br/>
-                                    <span>Designing the architecture and developing the backend of the "WAZUP" application using Python/FastAPI.</span>
-                                    <span>Developing and maintaining the landing page for the "WAZUP" application using Python/Django. </span>
-                                    <span>Documenting the API with Swagger. </span>
-                                    <span>Integration of third-party services, such as online payment (Orange, MTN). </span>
-                                    <span>Deploy and manage on an Azure cloud environment.</span>
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                
+          <div class="col-lg-8 mx-auto">
+            <div class="skills-grid mt-4">
+              <div class="skill">Python — Django, FastAPI, Flask</div>
+              <div class="skill">Backend Architecture & Microservices</div>
+              <div class="skill">DevOps — Docker, Kubernetes, Ansible, CI/CD</div>
+              <div class="skill">Testing — Pytest, Unit & Integration Tests</div>
+              <div class="skill">Scraping & OSINT — Playwright, Selenium, HTTPX</div>
+              <div class="skill">Payments & Integrations — Flutterwave, Stripe, PayPal, PawaPay</div>
+              <div class="skill">Databases — PostgreSQL, MySQL, MongoDB</div>
+              <div class="skill">Cloud — Azure, DigitalOcean, OVHCloud</div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- PRIZES -->
+	<!-- RESUME -->
+	<section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-lg-6 col-12">
+			<h2 class="mb-4">Experiences</h2>
+			<div class="timeline">
+			  <!-- Comparo -->
+			  <div class="timeline-wrapper">
+				<div class="timeline-yr"><span>2024</span></div>
+				<div class="timeline-info">
+				  <h3><span>Founder</span><small>Comparo</small></h3>
+				  <p>
+					<a href="https://app.comparo.africa" target="_blank">Comparo</a> — All-in-one SaaS and e-commerce platform.
+					<br/><br/>
+					<span>Designed multi-tenant Django backend with Docker/Kubernetes and automated deployment with Ansible.</span><br/>
+					<span>Developed native Android app (Java) and advanced POS, stock, accounting, and sales management.</span><br/>
+					<span>Integrated multiple payment gateways: Flutterwave, PawaPay, NotchPay, Maviance, PayPal, Stripe.</span><br/>
+					<span>Implemented role & permission management and scalable backend architecture.</span><br/>
+					<span>Results: 3,000+ accounts, 8,000,000 XAF monthly sales, active across multiple African countries.</span><br/>
+					<span>Testing: Full Pytest coverage on critical features.</span>
+				  </p>
+				</div>
+			  </div>
+			  <!-- Buguard -->
+			  <div class="timeline-wrapper">
+				<div class="timeline-yr"><span>2023</span></div>
+				<div class="timeline-info">
+				  <h3><span>Data Scraper Specialist</span><small>Buguard LLC</small></h3>
+				  <p>
+					<a href="https://buguard.io" target="_blank">Buguard</a> — Cybersecurity company for threat intelligence.
+					<br/><br/>
+					<span>Developed asynchronous Python scrapers for forums, Telegram, and websites.</span><br/>
+					<span>Automated extraction of sensitive data: leaks, credit cards, OpenCVE vulnerabilities.</span><br/>
+					<span>Created Telegram analysis tools: file metadata, keywords, and content tracking.</span><br/>
+					<span>Testing: Full Pytest coverage.</span>
+				  </p>
+				</div>
+			  </div>
+			  <!-- Strapp Life -->
+			  <div class="timeline-wrapper">
+				<div class="timeline-yr"><span>2020</span></div>
+				<div class="timeline-info">
+				  <h3><span>Backend Developer</span><small>Strapp Life</small></h3>
+				  <p>
+					<a href="https://www.strapp.life/" target="_blank">Strapp Life</a> — Smart bracelet for elderly & illiterate users.
+					<br/><br/>
+					<span>Developed backend FastAPI/Django REST, notifications, and user dashboard.</span><br/>
+					<span>Secured backend endpoints and automated notifications to relatives.</span><br/>
+					<span>Testing: Full Pytest coverage.</span>
+				  </p>
+				</div>
+			  </div>
+			  <!-- Malea -->
+			  <div class="timeline-wrapper">
+				<div class="timeline-yr"><span>2018</span></div>
+				<div class="timeline-info">
+				  <h3><span>Backend Developer</span><small>Malea</small></h3>
+				  <p>
+					Malea — Installment payment platform for e-commerce.
+					<br/><br/>
+					<span>Developed backend Django with Mobile Money & banking integration.</span><br/>
+					<span>Automated installment management and reminders.</span><br/>
+					<span>Testing: Full Pytest coverage.</span>
+				  </p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	
+		  <!-- Side Projects -->
+		  <div class="col-lg-6 col-12">
+			<h2 class="mb-4">Side Projects</h2>
+			<div class="timeline">
+			  <!-- Flexshield -->
+			  <div class="timeline-wrapper">
+				<div class="timeline-yr"><span>2024</span></div>
+				<div class="timeline-info">
+				  <h3><span>Flexshield</span></h3>
+				  <p>
+					<a href="https://flexshield.io" target="_blank">Flexshield</a> — Daily insurance subscription platform for informal sector drivers.
+					<br/><br/>
+					<span>Backend Django with subscription management and payment integration.</span><br/>
+					<span>Stack: Django, Django REST Framework, Azure AKS, PostgreSQL.</span><br/>
+					<span>Testing: Full Pytest coverage.</span>
+				  </p>
+				</div>
+			  </div>
+			  <!-- Veritrust -->
+			  <div class="timeline-wrapper">
+				<div class="timeline-yr"><span>2025</span></div>
+				<div class="timeline-info">
+				  <h3><span>Veritrust</span></h3>
+				  <p>
+					<a href="https://getveritrust.com" target="_blank">Veritrust</a> — Borrower verification and reporting solution for logistics agencies.
+					<br/><br/>
+					<span>Backend Django with data flow integration and reporting.</span><br/>
+					<span>Stack: Django, DigitalOcean, Nginx, Gunicorn.</span><br/>
+					<span>Testing: Full Pytest coverage.</span>
+				  </p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	
+		</div>
+	  </div>
+	</section>
+
+    <!-- AWARDS -->
     <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="prize">
-        <div class="container">
-            <h2 class="mb-4 text-center">Prizes & Awards</h2>
+      <div class="container">
+        <h2 class="mb-4 text-center">Awards & Hackathons</h2>
 
-            <div class="row mt-4">
-                <div class="col-lg-6 col-12">
-                    <div class="timeline">
-
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2024</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>1XBET SPORTSTECH</span><small>1XBET</small></h3>
-                                  <p>In 24 hours, me and my sidekick (whom I met at the event) developed a prototype for a sports application that would keep you up to date with local sports news in real time, including leagues, matches, league tables, transfers, news and more.</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2022</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Hackathon CyberSecurity Challenge</span><small>QuickDo Canada</small></h3>
-                                  <p>Winner of this hackathon organized by QuickDo Canada, in 48 hours I developed a browser add-on to ensure the security of Internet users online. The addon in question blocks phishing sites referenced in several active forums (around 1 million phishing sites constantly updated) and is able to identify fake government or banking sites whose domain name is generally derived from the original domain (to the letter). Once these sites have been identified, the addon immediately stops the request and informs the user. The project has been named SecureMyNavigation and is the intellectual property of the Hackathon organizer.</p>
-                             </div>
-                        </div>
-
-                    </div>
+        <div class="row mt-4">
+          <div class="col-lg-6 col-12">
+            <div class="timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-yr"><span>2024</span></div>
+                <div class="timeline-info">
+                  <h3><span>SportsTech Challenge</span><small>1XBET</small></h3>
+                  <p>Prototype for a sports app developed in 24 hours for local sports data and realtime updates.</p>
                 </div>
+              </div>
 
-                <div class="col-lg-6 col-12">
-
-                    <div class="timeline">
-
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2022</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Hack4Future</span><small>Société Générale Algeria</small></h3>
-                                  <p>Winner of this hackathon organized by Société Générale Algérie, I worked with my team (teams of 4) on an innovative banking application for the future.</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2022</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Techstars AI challenge</span><small>AAIS</small></h3>
-                                  <p>Winner of this hackathon organized by the AAIS (African Artificial Intelligence Society), I designed in 72 hours a first minimal version of an agricultural voice assistant with artificial intelligence that helps beginners in agriculture through advice and guidance optimized for the success of their plantations. The project was named AVA.</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2022</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Kelmass Hackathon</span><small>Kelmass SARL</small></h3>
-                                <p>Winner of this hackathon organized by Kelmass SARL, During 10 hours, I took on a challenge consisting in building a microservices application to manage the grades of the students of a school, then containerize the application and version it on git.</p>
-                            </div>
-                        </div>
-
-                    </div>
+              <div class="timeline-wrapper">
+                <div class="timeline-yr"><span>2022</span></div>
+                <div class="timeline-info">
+                  <h3><span>Hackathon — CyberSecurity Challenge</span><small>QuickDo Canada</small></h3>
+                  <p>Winner: SecureMyNavigation — browser add-on to block phishing sites and protect users.</p>
                 </div>
+              </div>
 
             </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-yr"><span>2022</span></div>
+                <div class="timeline-info">
+                  <h3><span>Hack4Future</span><small>Société Générale Algeria</small></h3>
+                  <p>Winner: innovative banking application concept developed with a small team.</p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr"><span>2022</span></div>
+                <div class="timeline-info">
+                  <h3><span>Techstars AI Challenge</span><small>AAIS</small></h3>
+                  <p>Winner: AVA — an agricultural voice assistant prototype to help beginner farmers.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- CONTACT -->
     <section class="contact py-5" id="contact">
       <div class="container">
         <div class="row">
-          
+
           <div class="col-12">
-            <div class="google-map w-100">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15919.35182603821!2d9.690652150361757!3d4.0534500847241075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061125fd8ac86e9%3A0x8c209e5fc42dae26!2sAkwa%2C%20Douala!5e0!3m2!1sfr!2scm!4v1691024605370!5m2!1sfr!2scm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="google-map w-100 mb-4">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15919.35182603821!2d9.690652150361757!3d4.0534500847241075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061125fd8ac86e9%3A0x8c209e5fc42dae26!2sAkwa%2C%20Douala!5e0!3m2!1sfr!2scm!4v1691024605370!5m2!1sfr!2scm" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+            <div class="contact-info d-flex flex-column flex-md-row justify-content-between align-items-start py-4 px-lg-5" style="gap:16px;">
                 <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Interested to work together? Let's talk</h3>
-                  <p class="footer-text mb-0">+237 698 43 51 94</p>
+                  <h3 class="mb-3 text-white">Let's build something great.</h3>
+                  <p class="footer-text mb-0">Address: Ndogbong, Douala, Cameroon</p>
+                  <p class="footer-text mb-0">Phone: +237 698 43 51 94</p>
                   <p><a href="mailto:tagnedidier@gmail.com">tagnedidier@gmail.com</a></p>
+                </div>
+
+                <div class="contact-info-item">
+                  <h5 class="mb-2">Quick Links</h5>
+                  <p class="mb-1"><strong>Resume:</strong> <a href="https://drive.google.com/file/d/1X70mxPQAAYwX_Ydo1itdVDQ2y_0zO2Ry/view?usp=sharing" target="_blank">Download</a></p>
+                  <p class="mb-1"><strong>Website:</strong> <a href="https://app.comparo.africa" target="_blank">app.comparo.africa</a></p>
+                  <p class="mb-0"><strong>Languages:</strong> English, French</p>
                 </div>
             </div>
           </div>
@@ -487,14 +308,12 @@
     </section>
 
     <!-- FOOTER -->
-     <footer class="footer py-5">
+     <footer class="footer py-4">
           <div class="container">
                <div class="row">
-
-                    <div class="col-lg-12 col-12">                                
-                        <p class="copyright-text text-center">Copyright &copy; 2023 Didier Tagne . All rights reserved</p>
+                    <div class="col-lg-12 col-12 text-center">
+                        <p class="copyright-text">© 2025 Didier Tagne. All rights reserved.</p>
                     </div>
-                    
                </div>
           </div>
      </footer>
@@ -507,6 +326,24 @@
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+
+     <script>
+       // Init carousel (slight modern config)
+       $(document).ready(function(){
+         $(".owl-carousel").owlCarousel({
+           items: 3,
+           loop: true,
+           margin: 20,
+           autoplay: true,
+           autoplayTimeout: 3500,
+           responsive:{
+             0:{ items:1 },
+             600:{ items:2 },
+             1000:{ items:3 }
+           }
+         });
+       });
+     </script>
 
   </body>
 </html>
